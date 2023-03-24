@@ -1,0 +1,32 @@
+{
+    "manifest_version": 3,
+    "name": "TikTok Auto Scroller",
+    "version": "1.0",
+    "description": "Auto Scroll to the next video after watching a TikTok Video",
+    
+    "icons": {
+        "16": "images/icon16.png",
+        "32": "images/icon32.png",
+        "48": "images/icon48.png",
+        "128":  "images/icon128.png"     
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "Find best performing videons on TikTok"
+    },
+    "host_permissions": [
+        "https://www.tiktok.com/*"
+    ],
+    "content_scripts": [
+        {
+            "run_at": "document_start",
+            "js": [
+             "js/jquery-3.6.1.min.js", "js/page.js"
+            ],
+            "matches": [
+                "https://www.tiktok.com/*"
+                
+            ]
+        }    
+    ]
+}

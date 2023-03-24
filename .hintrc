@@ -1,0 +1,28 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "meta-viewport": "off",
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "-webkit-tap-highlight-color",
+          "scroll-behavior",
+          "text-decoration-skip-ink"
+        ]
+      }
+    ]
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_chr <= 107",
+    "not chrome <= 108",
+    "not edge <= 107",
+    "not firefox <= 107",
+    "not safari <= 16.1",
+    "not samsung <= 19"
+  ]
+}

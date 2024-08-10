@@ -1,7 +1,7 @@
 # TikTok-Auto-Scroller
-This is a chrome extension written in JavaScript that is a TikTok auto scroller. This documentation will be updated at a later point. For now, I am just storing my code on here. There are limitations that could break the extension because the UI of TikTok changes depending on if you go to the home page and watch video or if you watch a video and hit refresh. The reason being that if you go to the TikTok home page on desktop and watch videos, you can scroll down or up to switch videos. However, if you refresh the page while watching a video, you can longer scroll up or down to switch videos, you actually have to press a button. My logic so far handles scrolling, but not button pressing because I keep getting weird bugs where I can't get the time to track properly. Like I said, this README will be re-written in the future, these are just preliminary notes.. mostly for myself.
+This is a chrome extension written in JavaScript that is a TikTok auto scroller. 
 
-I'm also just publishing this on GitHub in case my PC explodes and I lose all these files locally.
+NOTE: This repo is no longer relevant as the UI on TikTok has been updated, and additionally, they have finally implemented an auto-scroll feature on their end. I will this repo up if for some reason they remove auto-scrolling and the UI is changed back. 
 
 If you want to test this yourself:
 1. Download this repo and un-zip it.
